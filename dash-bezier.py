@@ -25,7 +25,10 @@ def quadratic_bezier(t, P0, P1, P2):
     return (Bx, By)
 
 
+
 app = dash.Dash(__name__, external_stylesheets=['https://codepen.io/chriddyp/pen/bWLwgP.css'])
+server = app.server
+
 
 app.layout = html.Div([
     dcc.Graph(id='bezier-curve'),
