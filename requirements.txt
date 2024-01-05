@@ -1,0 +1,7 @@
+dash==2.6.0
+gunicorn==21.2.0
+matplotlib
+numpy
+pandas
+plotly
+Pillow
